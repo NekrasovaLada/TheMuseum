@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="558cf75e-a0d5-4b67-9544-a4f73cc8f266">
+  <name>ДляУправляющего</name>
+  <synonym>
+    <key>ru</key>
+    <value>Для управляющего</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Экспонаты</content>
+  <content>Catalog.МузейныеЗоны</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.СуществующиеДолжности</content>
+  <content>Catalog.Билеты</content>
+  <content>Document.Заказ</content>
+  <content>InformationRegister.ДолжностиСотрудников</content>
+  <content>InformationRegister.Цены</content>
+  <content>Report.Продажи</content>
+  <content>Report.ЭкспонатыВНаличии</content>
+</mdclass:Subsystem>

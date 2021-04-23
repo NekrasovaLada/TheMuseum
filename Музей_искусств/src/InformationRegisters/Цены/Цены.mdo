@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ac55b16-af11-4f79-ad5d-99828938e976">
+  <producedTypes>
+    <selectionType typeId="aabd553e-8020-4ef0-9c5e-9aeb003bfafa" valueTypeId="fd90da98-88e3-414f-9b09-46a7aeeaac0c"/>
+    <listType typeId="2bc41ce3-c169-4cc3-8f22-6e1771cec7a8" valueTypeId="cc556b7f-0784-48db-91fd-2924c87e8397"/>
+    <managerType typeId="2f1571a0-c42f-4865-88e9-8ef41d2eb244" valueTypeId="881e18c5-0a76-4e1e-83f5-b0a8eb1d210f"/>
+    <recordSetType typeId="f819a8c9-5c66-4e79-881f-12e15e0f1139" valueTypeId="21b3de30-89aa-40c2-8e63-c8b6297b8659"/>
+    <recordKeyType typeId="077417a3-dc95-4872-922b-b4e5858f1423" valueTypeId="20103991-2dfb-4991-ae76-7c2b52f9362d"/>
+    <recordType typeId="23b6001b-84fa-4b11-86cd-200072f603a8" valueTypeId="04227a50-c4a2-4ef5-865e-5c029515c26e"/>
+    <recordManagerType typeId="58ffe606-e47d-418d-8eb9-c36d3c531112" valueTypeId="6cb82fd4-8a87-40e0-bafc-16041a066336"/>
+  </producedTypes>
+  <name>Цены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="12680525-5190-4e79-9b54-629fdbaa33d1">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45f05aab-11d7-4611-85d2-06bce122917d">
+    <name>Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Билеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

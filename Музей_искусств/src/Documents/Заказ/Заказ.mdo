@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98cc86f7-2030-476c-a2cc-d6feca94ace6">
+  <producedTypes>
+    <objectType typeId="cf8ed37c-e42d-46ba-b07f-5ceedc7eef86" valueTypeId="7fe8ed97-d2b2-4846-9e2f-7c0160ef0461"/>
+    <refType typeId="9469222f-0ac8-475d-908b-eb78af51ffdc" valueTypeId="9a899ae5-5d1b-4cd4-ab50-605cbbf52c7d"/>
+    <selectionType typeId="e764336f-dd90-4289-b2aa-40679d72e277" valueTypeId="ffc9147c-46c2-4fea-ac03-0ce205455432"/>
+    <listType typeId="56d1e045-05f0-47e3-a097-16ec25c40654" valueTypeId="acd862ab-3386-4858-b7ba-64266b18625f"/>
+    <managerType typeId="d27f0de5-0446-4d55-b646-84f3fdbf4d1f" valueTypeId="69124f23-c085-42e7-8d91-f5c234b3cbe8"/>
+  </producedTypes>
+  <name>Заказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Заказ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Заказ.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="7e5b1f0a-bf1c-4d6c-8f79-2be83b7382f3">
+    <name>ИтоговаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="15c340c7-32d8-42c4-94c0-40be7b9396be">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="43af54c5-2fc7-4a9f-be5e-c954816e64a6">
+    <producedTypes>
+      <objectType typeId="4f81c055-c2d3-4030-9930-d394deacaaf3" valueTypeId="fd964cc0-ff36-4686-9f8a-ad20f5f6c7c0"/>
+      <rowType typeId="93274a38-4e2a-4a44-9c33-b96f50d04a84" valueTypeId="8490b786-41c7-494d-8dcf-13ede514e0ae"/>
+    </producedTypes>
+    <name>Билеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билеты</value>
+    </synonym>
+    <attributes uuid="19b3b644-4465-4420-920b-d7338b7ed372">
+      <name>Билет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Билет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Билеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f928cec1-a198-4723-97ea-42aebd506913">
+      <name>ТипБилета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип билета</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипБилета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c5ffff2-57f0-4103-922b-038f8d74a37e">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

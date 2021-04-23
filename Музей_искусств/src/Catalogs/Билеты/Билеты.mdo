@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a068fbd-49da-464d-b366-0f90a9e0ee19">
+  <producedTypes>
+    <objectType typeId="2017d6b4-7078-4804-8064-1cffa74716e2" valueTypeId="a165cb5e-8d59-45c3-a618-73580123061e"/>
+    <refType typeId="5b714a28-48ae-4ebf-9959-0242921fbaec" valueTypeId="fcfd3f45-2f21-427c-ad35-35330f218597"/>
+    <selectionType typeId="78459b25-e844-48d6-b56a-0b3713305a56" valueTypeId="f4c3235c-88b1-468e-a62f-10cd30dd0615"/>
+    <listType typeId="d0c2fdb9-ca04-4b53-a5db-cecd9b72c5fe" valueTypeId="7c9da396-edc1-4578-ae99-21bb2a362ee7"/>
+    <managerType typeId="1d506cc2-9844-4194-a3bb-88e552793028" valueTypeId="06810d9d-cf08-4f4f-8b53-e2182064d227"/>
+  </producedTypes>
+  <name>Билеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Билеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Билеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Билеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>70</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Билеты.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="fbcf8bf9-5dc4-4e9f-bed9-2e448253c9f6">
+    <producedTypes>
+      <objectType typeId="26a93c3d-a3db-4f12-8c55-a91f19e8ebde" valueTypeId="8988ba2f-1fd1-4bcb-8e79-772da1831464"/>
+      <rowType typeId="779099ab-3dad-4450-a489-db2749272122" valueTypeId="9df0a4b4-f94b-443c-900e-4003eded8d96"/>
+    </producedTypes>
+    <name>ЗоныМузея</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зоны музея</value>
+    </synonym>
+    <attributes uuid="2a694a8d-b05c-47af-a745-1d20fcee7924">
+      <name>ЗонаМузея</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зона музея</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МузейныеЗоны</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b94e2e5f-1b9b-45ef-bd9f-d6de9db75e04">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

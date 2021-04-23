@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaf3fe0d-842d-4f70-8dfc-96f9e2fbb188">
+  <producedTypes>
+    <objectType typeId="c15fe679-c204-444a-92e5-ae4ad32f5ce3" valueTypeId="9e92f209-2778-4a48-93d6-82d85b4aa623"/>
+    <refType typeId="7b2ce814-a555-4ecb-8382-407f7d5724b7" valueTypeId="fb66b6af-ae7c-4c70-8d8f-778d211dc622"/>
+    <selectionType typeId="efa1c3b8-18b3-44a2-9f84-7b9640f9aa55" valueTypeId="59f8f3a1-4029-4bc2-b18f-031df5e5002c"/>
+    <listType typeId="db1b78ba-5c29-467c-8875-9a4ebe0015e0" valueTypeId="64381ab6-294a-4559-b2bc-7a945e9dc31e"/>
+    <managerType typeId="b1b9d614-69ec-49d0-b59f-80e4a0a48b17" valueTypeId="7aeb3111-94dd-4b2c-857c-8dce63ae409a"/>
+  </producedTypes>
+  <name>МузейныеЗоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Музейные зоны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МузейныеЗоны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МузейныеЗоны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МузейныеЗоны.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ce6ddf95-9901-4d4b-82e2-255f3a1c99d9">
+    <name>ОписаниеЗоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание зоны</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c893bd57-9d1b-4a08-9127-12e0f7c7ba99">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

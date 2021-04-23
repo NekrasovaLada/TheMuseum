@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac76f828-bba3-4c05-96bf-202670ba1612">
+  <producedTypes>
+    <objectType typeId="05226e4e-26e0-4775-aa95-46d161ed3eb8" valueTypeId="80b6fe9e-0c3d-41ba-9417-563cc16952f2"/>
+    <refType typeId="b418ba7e-7af9-411a-b8eb-65b55064f04d" valueTypeId="9d58813a-1579-4e5b-bde2-364725a2f4c4"/>
+    <selectionType typeId="17c0e370-b132-4a22-aa80-3e94d91cd42e" valueTypeId="7903cb19-e0ba-4426-b424-55abdac89fae"/>
+    <listType typeId="8cc268b7-7b14-44f6-9e64-d8fcbc21d7c8" valueTypeId="9a076a4b-b351-4bee-866e-45ba57b32a6d"/>
+    <managerType typeId="743a3cef-8f64-4266-a3bf-9b0bb4cc4991" valueTypeId="9f67b082-c55f-46ef-b914-4ccac6a1696d"/>
+  </producedTypes>
+  <name>СуществующиеДолжности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Существующие должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СуществующиеДолжности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СуществующиеДолжности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СуществующиеДолжности.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="b15a69ef-654a-446b-aa7a-d7036769e960">
+    <name>Обязанности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязанности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2d7585f1-b620-4383-91a9-65994781f952">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

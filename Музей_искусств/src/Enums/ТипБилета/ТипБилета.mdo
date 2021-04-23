@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99fc71c7-abe1-404e-959d-0cb2548b932a">
+  <producedTypes>
+    <refType typeId="40192d26-04e8-45dd-bb8d-82eba3c90af9" valueTypeId="855f2f6e-b1f2-4c9a-b9ea-8809bf53c548"/>
+    <listType typeId="4935df03-a629-46cc-a23e-fddcdc99e603" valueTypeId="75b5de6e-b793-414f-98ef-917dd82a0c24"/>
+    <managerType typeId="cfe123f6-2f27-46e2-95a0-26b607f0675e" valueTypeId="e044615c-6c5b-42e2-a5d9-5453d66d7cfe"/>
+  </producedTypes>
+  <name>ТипБилета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип билета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3fc47b5b-7793-4c37-857c-a5ab84c3e04c">
+    <name>Детский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7bac75c-d5ea-45a2-8d59-a43dc3f51ba5">
+    <name>Полный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73d48345-7b56-4d5a-a5dd-d149e4950335">
+    <name>Льготный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Льготный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

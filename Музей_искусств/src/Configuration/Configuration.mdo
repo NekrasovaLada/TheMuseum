@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a05bc95-c05e-4b57-9f67-8e4acb20c80e">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2682614c-9b4e-48a2-8fb3-f8fa429ad6ea"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="71e06098-d12e-4ea9-ac98-24d3889880d5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7d7bbfcd-29f6-4471-a35d-c1d213389323"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3b9821e1-cc94-4a5b-befe-3d2230fdb3e1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ced6e891-4f8c-4300-b6ff-3a80cc297686"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1af1f473-d093-4175-af18-e87bb3c47c1c"/>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="4818081e-e36f-4429-a379-dcbff67083db">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ДляКассира</subsystems>
+  <subsystems>Subsystem.ДляУправляющего</subsystems>
+  <catalogs>Catalog.Экспонаты</catalogs>
+  <catalogs>Catalog.МузейныеЗоны</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СуществующиеДолжности</catalogs>
+  <catalogs>Catalog.Билеты</catalogs>
+  <documents>Document.Заказ</documents>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ТипБилета</enums>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ЭкспонатыВНаличии</reports>
+  <informationRegisters>InformationRegister.ДолжностиСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+</mdclass:Configuration>

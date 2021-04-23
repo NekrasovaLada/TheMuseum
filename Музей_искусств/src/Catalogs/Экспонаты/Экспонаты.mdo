@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8e95333-f8ea-48f2-a7f1-484d57c8e404">
+  <producedTypes>
+    <objectType typeId="c065b5d7-cdd4-4eb8-9eaf-c7b1d061da4f" valueTypeId="1f0ceb0d-58d1-47cf-a28f-fd8143693732"/>
+    <refType typeId="d68e9d4b-785c-48d1-83d8-bc35946288a8" valueTypeId="70ffca59-f8d9-4dfc-8151-1e07e641505a"/>
+    <selectionType typeId="649d68c2-e57b-43f7-90da-03e9585b98e0" valueTypeId="8af10db0-a7a0-46a9-b084-ff7178af1181"/>
+    <listType typeId="6f17bfd0-c301-4252-bec6-9efa9d0c347a" valueTypeId="0fbfc441-3c39-402d-befa-b3466c72564e"/>
+    <managerType typeId="c9ae834c-6d20-4c3d-ae2d-33056f847140" valueTypeId="bf151036-4649-443b-ae49-8ff57b4cb618"/>
+  </producedTypes>
+  <name>Экспонаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспонаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Экспонаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Экспонаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Экспонаты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="509b7c61-c0cc-4327-a420-93ad49adde7f">
+    <name>Зона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МузейныеЗоны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0114a33f-aa68-4170-b34c-b39c5af4a014">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4333eae7-a70c-4c25-a4c4-15e5e471b002">
+    <name>ЭкспонатСейчасВМузее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспонат сейчас в музее</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7c1b8f5-be4b-480f-be14-5f53a19d00fe">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9ef64a23-35e8-4e24-b30c-9dad5f47b3ed">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
